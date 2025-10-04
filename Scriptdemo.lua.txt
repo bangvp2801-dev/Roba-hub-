@@ -1,0 +1,137 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "roba hub",
+         Animation = "Youtube: yes mod"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=95067142891700",
+       Size = {50, 50},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "script full"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  Local Settings = { 
+JoinTeam = "Pirates"; -- 
+Pirate/Marine Translator = true; -- true/false 
+} 
+getgenv().BETA_VERSION = true 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
+  end
+  })
+  
+  
+      AddButton(Tab1o, {
+     Name = "maru hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/hnc-roblox/Free/refs/heads/main/MaruHubPremiumFake.HNC%20Roblox.lua"))()
+  end
+  })
+  
+  
+      AddButton(Tab1o, {
+     Name = "andepzai hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkMuscles/Games/Roblox/Bloxfruits/AnDepZaiHub.lua", true))()
+  end
+  })
+  
+  
+  AddButton(Tab1o, {
+     Name = "hoho hub main"
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+  })
+  
+  
+  AddButton(Tab1o, {
+     Name = "hoho hub bouty",
+    Callback = function()
+	  _G["HoHo Hub Auto Bounty V36"] = {
+    ["Avatar"] = "",
+    ["Farm Method"] = "Normal",
+    ["Select Team"] = "Pirate",
+    ["Discord Webhook"] = "",
+    ["Bypass Teleport"] = false,
+    ["Max Level Distance"] = 612,
+    ["Don't attack friends"] = true,
+    ["Don't attack player have cup"] = true,
+    ["Distance Attack Y"] = 6,
+    ["Chat After Kill"] = {
+        ["Active"] = true,
+        ["List Chat"] = {"i have a good gaming chair","No skill? Use Hoho hub","How to play this game","im new","your bad"},
+    },
+    ["Yourself"] = {
+        ["Invisible From Ken"] = true,
+        ["No Stun"] = true,
+    },
+    ["SafeZone"] = {
+        Enabled = true,
+        ["Health Left (%)"] = 40,
+        ["Wait Until Heal (%)"] = 80,
+    },
+    ["Time Control"] = {
+        ["Max Time Target Player"] = 120,
+    },
+    ["Abilities"] = {
+        ["Auto Click"] = true,
+        ["Melee"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Sword"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Gun"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+        ["Fruit"] = {
+            Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            V = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+            F = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+        },
+    },
+    ["Supper Fix Lag"] = true,
+    ["Auto Gacha & Store Fruit"] = true,
+    ["Use Portal Teleport"] = true,
+    ["Esp"] = true,
+    ["Fast Attack"] = true,
+}
+
+_G.loadCustomId = "e5f02409dae922162aaf94a7ea76b6e2"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+  })
+  
